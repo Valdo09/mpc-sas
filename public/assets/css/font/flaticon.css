@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?01d70258fe143406a34f7ae8fdd425a8") format("truetype"),
+url("./flaticon.woff?01d70258fe143406a34f7ae8fdd425a8") format("woff"),
+url("./flaticon.woff2?01d70258fe143406a34f7ae8fdd425a8") format("woff2"),
+url("./flaticon.eot?01d70258fe143406a34f7ae8fdd425a8#iefix") format("embedded-opentype"),
+url("./flaticon.svg?01d70258fe143406a34f7ae8fdd425a8#flaticon") format("svg");
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: "flaticon";
+      src: url("./flaticon.svg#flaticon") format("svg");
+    }
+}
+  
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: flaticon;
+    left: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  font-style: normal;
+}
+
+.flatistyle{
+    margin: -3px;
+}
+
+@media screen and (max-width: 767px) {
+   .flatistyle{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-left: -10px;
+   }
+}
+@media screen and (max-width: 600px) {
+    .flatistyle{
+         margin-top: 2px;
+         margin-bottom: 2px;
+         margin-left: -10px;
+    }
+}
+
+.flaticon-hook:before {
+    content: "\f101";
+}
+.flaticon-crane:before {
+    content: "\f102";
+}
+.flaticon-windows:before {
+    content: "\f103";
+}
+.flaticon-apartment:before {
+    content: "\f104";
+}
+.flaticon-kitchen:before {
+    content: "\f105";
+}
